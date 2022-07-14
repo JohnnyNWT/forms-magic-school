@@ -62,6 +62,8 @@ main {
 
 #textarea {
   resize: none;
+  border: 1px solid rgb(78, 44, 131);
+  margin: 15px 0;
 }
 
 .rodape {
@@ -70,9 +72,9 @@ main {
   margin-top: 10px;
   background-color: rgb(60, 64, 75);
   color: rgb(244, 244, 244);
-  position: absolute;
-  width: 100%;
+  position: relative;
   bottom: 0;
+  height: 23px;
 }
 
 #entrar {
@@ -89,4 +91,53 @@ form div input, select{
   margin-right: 1px;
   font-family: cursive;
   font-size: unset;
+}
+
+#submit-btn {
+  background-color: rgb(78, 44, 131);
+  color: white;
+  width: 100%;
+  margin-top: 15px;
+}
+
+#label-rate {
+  margin-bottom: 15px;
+}
+
+label {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.container-principal {
+  display: flex;
+  flex-direction: row;
+  height: 155px;
+  line-height: 30px;
+  justify-content: center;
+}
+
+.container-filho {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 327px;
+}
+
+.filho2 {
+  display: flex;
+  height: 108px;
+  width: 245px;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+h2 {
+  text-align: center;
+  margin: 15px 0;
+  font-weight: bolder;
+  font-size: xx-large;
 }

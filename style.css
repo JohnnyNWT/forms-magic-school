@@ -28,7 +28,7 @@ hr {
   align-items: center;
 }
 
-.trybewarts-login input,button {
+.trybewarts-login input, button {
   width: 166px;
   padding: 10px;
   border-style: none;
@@ -82,7 +82,7 @@ main {
   color: white;
 }
 
-form div input,select {
+form div input, select {
   width: 310px;
   margin-bottom: 15px;
   padding: 12px;
@@ -135,5 +135,4 @@ label {
 h2 {
   text-align: center;
   margin: 15px 0;
-  font-weight: bolder;
 }

@@ -28,7 +28,7 @@ hr {
   align-items: center;
 }
 
-.trybewarts-login input, button {
+.trybewarts-login input,button {
   width: 166px;
   padding: 10px;
   border-style: none;
@@ -82,7 +82,7 @@ main {
   color: white;
 }
 
-form div input, select{
+form div input,select {
   width: 310px;
   margin-bottom: 15px;
   padding: 12px;
@@ -105,9 +105,7 @@ form div input, select{
 }
 
 label {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
-  font-weight: bolder;
 }
 
 .container-principal {
@@ -130,8 +128,7 @@ label {
   height: 108px;
   width: 245px;
   justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-content: space-around;
 }
 
@@ -139,5 +136,4 @@ h2 {
   text-align: center;
   margin: 15px 0;
   font-weight: bolder;
-  font-size: xx-large;
 }
